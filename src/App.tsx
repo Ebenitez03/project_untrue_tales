@@ -8,7 +8,18 @@ function App() {
   return (
     <>
       <div>
-        <Btn_reusable params="Try"></Btn_reusable>
+        <body>
+        <header>
+        <Btn_reusable params="Profile"></Btn_reusable>
+        <Btn_reusable params='Search'></Btn_reusable>
+        </header>
+        <div>
+
+        </div>
+        <footer>
+
+        </footer>
+        </body>
       </div>
       
     </>
