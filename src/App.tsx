@@ -1,25 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import styles from './App.module.css';
 import Btn_reusable from "./components/btn_reusable/Btn_reusable";
 
 function App() {
   return (
     <>
       <div>
-        <body>
-        <header>
+        <header className={styles.header}>
         <Btn_reusable params="Profile"></Btn_reusable>
         <Btn_reusable params='Search'></Btn_reusable>
         </header>
-        <div>
+        <div className={styles.body}>
 
         </div>
         <footer>
 
         </footer>
-        </body>
       </div>
       
     </>
