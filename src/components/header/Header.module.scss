@@ -8,7 +8,14 @@
     background-color: bisque;
 }
 div{
-    position: absolute;
+    position: relative;
     flex-direction: row;
-    width: 1000px;
+    width: 30%;
+}
+.buttons{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
 }

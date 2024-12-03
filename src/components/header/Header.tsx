@@ -7,7 +7,7 @@ function Header() {
     <div className={styles.header}>
       <Hamburguer_menu></Hamburguer_menu>
       <Title_box></Title_box>
-      <div>
+      <div className={styles.buttons}>
         <Btn_reusable params="Profile"></Btn_reusable>
         <Btn_reusable params="Search"></Btn_reusable>
       </div>
