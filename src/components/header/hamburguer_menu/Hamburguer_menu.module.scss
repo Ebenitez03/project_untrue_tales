@@ -1,0 +1,11 @@
+.parent{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    .parent:hover{
+        width: 100vw;
+        height: 100vh;
+        background-color: aqua;
+    }
+}
