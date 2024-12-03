@@ -1,0 +1,14 @@
+.header{
+    position: absolute;
+    top: 0px;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    align-items:self-start;
+    background-color: bisque;
+}
+div{
+    position: absolute;
+    flex-direction: row;
+    width: 1000px;
+}
